@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DE999E11C18E2E8008E9431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE999E01C18E2E8008E9431 /* Assets.xcassets */; };
 		1309A6C91C158A44005EA244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1309A6C81C158A44005EA244 /* AppDelegate.swift */; };
 		1309A6CB1C158A44005EA244 /* InventarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1309A6CA1C158A44005EA244 /* InventarioViewController.swift */; };
 		1309A6CE1C158A44005EA244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1309A6CC1C158A44005EA244 /* Main.storyboard */; };
@@ -27,7 +28,6 @@
 		13A2A8BF1C184F0600612806 /* AlimentiInventarioTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A2A8BE1C184F0600612806 /* AlimentiInventarioTableController.swift */; };
 		13AD72961C15A12D0091F621 /* AlimentiTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD72951C15A12D0091F621 /* AlimentiTableController.swift */; };
 		13AD72981C15A9260091F621 /* CategorieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD72971C15A9260091F621 /* CategorieTableViewController.swift */; };
-		13AD729A1C15AD9A0091F621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AD72991C15AD9A0091F621 /* Assets.xcassets */; };
 		13AD729E1C15C5AD0091F621 /* RemoveCategorieTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD729D1C15C5AD0091F621 /* RemoveCategorieTableController.swift */; };
 		13AD72A01C15CD9E0091F621 /* AlimentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD729F1C15CD9E0091F621 /* AlimentoViewController.swift */; };
 		13C90FF21C161D6C00BF9EFD /* SetAlimentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C90FF11C161D6C00BF9EFD /* SetAlimentoViewController.swift */; };
@@ -53,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DE999E01C18E2E8008E9431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1309A6C51C158A43005EA244 /* iPlate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPlate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1309A6C81C158A44005EA244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1309A6CA1C158A44005EA244 /* InventarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventarioViewController.swift; sourceTree = "<group>"; };
@@ -79,7 +80,6 @@
 		13A2A8BE1C184F0600612806 /* AlimentiInventarioTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlimentiInventarioTableController.swift; sourceTree = "<group>"; };
 		13AD72951C15A12D0091F621 /* AlimentiTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlimentiTableController.swift; sourceTree = "<group>"; };
 		13AD72971C15A9260091F621 /* CategorieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategorieTableViewController.swift; sourceTree = "<group>"; };
-		13AD72991C15AD9A0091F621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		13AD729D1C15C5AD0091F621 /* RemoveCategorieTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveCategorieTableController.swift; sourceTree = "<group>"; };
 		13AD729F1C15CD9E0091F621 /* AlimentoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlimentoViewController.swift; sourceTree = "<group>"; };
 		13C90FF11C161D6C00BF9EFD /* SetAlimentoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetAlimentoViewController.swift; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 				1309A6D41C158A44005EA244 /* LaunchScreen.storyboard */,
 				1309A6D71C158A44005EA244 /* Info.plist */,
 				1309A6CF1C158A44005EA244 /* iPlate.xcdatamodeld */,
-				13AD72991C15AD9A0091F621 /* Assets.xcassets */,
+				0DE999E01C18E2E8008E9431 /* Assets.xcassets */,
 			);
 			path = iPlate;
 			sourceTree = "<group>";
@@ -344,7 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1309A6D61C158A44005EA244 /* LaunchScreen.storyboard in Resources */,
-				13AD729A1C15AD9A0091F621 /* Assets.xcassets in Resources */,
+				0DE999E11C18E2E8008E9431 /* Assets.xcassets in Resources */,
 				1309A6CE1C158A44005EA244 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
