@@ -68,6 +68,12 @@ class Categoria: NSManagedObject {
                     managedObjectContext.deleteObject(elemento)
                 }
             }
+            
+            //GARBAGE CLEAN: Rimuove gli alimenti che puntavano a quella categoria, altrimenti non sarebbero stati mai accessibili di nuovo
+          let listaAlim = try Alimento.listaAlimentiPerCategoria(categoria)
+            for al in listaAlim {
+                Alimento.removeAlimento(al)
+            }
         }catch {
             throw error
         }
