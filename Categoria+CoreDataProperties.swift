@@ -16,5 +16,6 @@ extension Categoria {
 
     @NSManaged var nome: String?
     @NSManaged var padre: Categoria?
+    @NSManaged var imgName: String?
 
 }

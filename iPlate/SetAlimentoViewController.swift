@@ -26,11 +26,14 @@ class SetAlimentoViewController: UIViewController {
     var numDel = NumericFieldDelegate()
     
     override func viewDidLoad() {
-        self.label.text = self.alimento.nome
+        self.navigationItem.title = self.alimento.nome
+        self.navigationController?.navigationBar.tintColor = self.subTotale.tintColor
         self.textField.delegate = self.numDel
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "Save"), landscapeImagePhone: nil, style: UIBarButtonItemStyle.Plain, target: self, action: "onSalva:")
+        self.textField.becomeFirstResponder()
     }
     
-    @IBAction func onSalva(sender: AnyObject) {
+    func onSalva(sender: AnyObject) {
         if grammi != nil && pPGrammo != nil {
             self.dismissViewControllerAnimated(true, completion: nil)
             Helper.addAlimentoToPiatto(self.alimento, subTot: (pPGrammo! * grammi!), grammi: grammi!)
@@ -49,6 +52,8 @@ class SetAlimentoViewController: UIViewController {
             self.grammi = sender.text!.toDouble()
             self.pPGrammo = self.alimento.prezzo!.doubleValue/1000.0
             self.subTotale.text = "Subtotale: " + String(pPGrammo! * grammi!) + "€"
+        }else{
+            self.subTotale.text = "Subtotale: 0€"
         }
     }
 }

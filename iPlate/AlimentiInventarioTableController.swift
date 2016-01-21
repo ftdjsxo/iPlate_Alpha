@@ -17,7 +17,6 @@ class AlimentiInventarioTableController: AlimentiTableController {
     
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == .Delete {
-            // Delete the row from the data source
             do{
                 let alimenti = try Alimento.listaAlimentiPerCategoria(categorie[indexPath.section])
                 let alimento = alimenti[indexPath.row]

@@ -34,6 +34,8 @@ class AlimentoViewController: UIViewController , CategorieTableViewControllerDel
         self.defaultTextFieldDelegate = getDefaultTextFieldDelegate()
         self.nome.delegate = self.defaultTextFieldDelegate
         
+        self.checkAlimento();
+        
         if alimento != nil{
             self.title = "Aggiorna Alimento"
             self.nome.text = alimento?.nome
@@ -41,7 +43,12 @@ class AlimentoViewController: UIViewController , CategorieTableViewControllerDel
             self.nome.userInteractionEnabled = false
             self.prezzo.text = alimento?.prezzo?.stringValue.stringByReplacingOccurrencesOfString(".", withString: ",")
             self.containerController.categoria = self.alimento?.categoria as? Categoria
+          
         }
+    }
+    
+    func checkAlimento(){
+        
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
@@ -54,9 +61,16 @@ class AlimentoViewController: UIViewController , CategorieTableViewControllerDel
     
     @IBAction func onSalva(sender: AnyObject) {
         if nomeNotBlank() && prezzoNotBlank() && categoria != nil{
+            
+            if alimento != nil {
+                alimento?.categoria = self.categoria
+                alimento?.prezzo = self.prezzo.text?.toDouble()
+                Alimento.save();
+            }
             do{
                 try Alimento.save(self.nome.text!, prezzo: prezzo.text!.toDouble()!, categoria: self.categoria!)
                 self.navigationController?.popToRootViewControllerAnimated(true)
+                self.dismissView(sender)
             }catch{
                 print(error)
             }

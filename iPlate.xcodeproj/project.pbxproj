@@ -7,7 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DE999E11C18E2E8008E9431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE999E01C18E2E8008E9431 /* Assets.xcassets */; };
+		0D12C5811C3D70B2009F9E4D /* IconsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D12C5801C3D70B2009F9E4D /* IconsTableController.swift */; };
+		0D12C5831C3D712C009F9E4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D12C5821C3D712C009F9E4D /* Assets.xcassets */; };
+		0D3F97331C3EEB0700A406E2 /* Piatto+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F972F1C3EEB0700A406E2 /* Piatto+CoreDataProperties.swift */; };
+		0D3F97341C3EEB0700A406E2 /* Piatto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F97301C3EEB0700A406E2 /* Piatto.swift */; };
+		0D3F97351C3EEB0700A406E2 /* PiattoAlimenti+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F97311C3EEB0700A406E2 /* PiattoAlimenti+CoreDataProperties.swift */; };
+		0D3F97361C3EEB0700A406E2 /* PiattoAlimenti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F97321C3EEB0700A406E2 /* PiattoAlimenti.swift */; };
+		0DCE04D51C3C775500C83B0E /* Redesign.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DCE04D41C3C775500C83B0E /* Redesign.storyboard */; };
+		0DE092B11C3D3C58009A7F44 /* PlateAlimentiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE092B01C3D3C58009A7F44 /* PlateAlimentiTableViewController.swift */; };
+		0DE092B31C3D3F03009A7F44 /* DetailAlimentoNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE092B21C3D3F03009A7F44 /* DetailAlimentoNavController.swift */; };
+		0DE092B51C3D4074009A7F44 /* DetailAlimentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE092B41C3D4074009A7F44 /* DetailAlimentoViewController.swift */; };
 		1309A6C91C158A44005EA244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1309A6C81C158A44005EA244 /* AppDelegate.swift */; };
 		1309A6CB1C158A44005EA244 /* InventarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1309A6CA1C158A44005EA244 /* InventarioViewController.swift */; };
 		1309A6CE1C158A44005EA244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1309A6CC1C158A44005EA244 /* Main.storyboard */; };
@@ -28,7 +37,7 @@
 		13A2A8BF1C184F0600612806 /* AlimentiInventarioTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A2A8BE1C184F0600612806 /* AlimentiInventarioTableController.swift */; };
 		13AD72961C15A12D0091F621 /* AlimentiTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD72951C15A12D0091F621 /* AlimentiTableController.swift */; };
 		13AD72981C15A9260091F621 /* CategorieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD72971C15A9260091F621 /* CategorieTableViewController.swift */; };
-		13AD729E1C15C5AD0091F621 /* RemoveCategorieTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD729D1C15C5AD0091F621 /* RemoveCategorieTableController.swift */; };
+		13AD729E1C15C5AD0091F621 /* EditCategorieTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD729D1C15C5AD0091F621 /* EditCategorieTableController.swift */; };
 		13AD72A01C15CD9E0091F621 /* AlimentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD729F1C15CD9E0091F621 /* AlimentoViewController.swift */; };
 		13C90FF21C161D6C00BF9EFD /* SetAlimentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C90FF11C161D6C00BF9EFD /* SetAlimentoViewController.swift */; };
 		13D7258D1C15EFC800974AB4 /* PiattoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D7258C1C15EFC800974AB4 /* PiattoViewController.swift */; };
@@ -53,7 +62,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DE999E01C18E2E8008E9431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D12C5801C3D70B2009F9E4D /* IconsTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconsTableController.swift; sourceTree = "<group>"; };
+		0D12C5821C3D712C009F9E4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D3F972F1C3EEB0700A406E2 /* Piatto+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Piatto+CoreDataProperties.swift"; path = "../Piatto+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0D3F97301C3EEB0700A406E2 /* Piatto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Piatto.swift; path = ../Piatto.swift; sourceTree = "<group>"; };
+		0D3F97311C3EEB0700A406E2 /* PiattoAlimenti+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "PiattoAlimenti+CoreDataProperties.swift"; path = "../PiattoAlimenti+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0D3F97321C3EEB0700A406E2 /* PiattoAlimenti.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PiattoAlimenti.swift; path = ../PiattoAlimenti.swift; sourceTree = "<group>"; };
+		0DCE04D41C3C775500C83B0E /* Redesign.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Redesign.storyboard; sourceTree = "<group>"; };
+		0DE092B01C3D3C58009A7F44 /* PlateAlimentiTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlateAlimentiTableViewController.swift; sourceTree = "<group>"; };
+		0DE092B21C3D3F03009A7F44 /* DetailAlimentoNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailAlimentoNavController.swift; sourceTree = "<group>"; };
+		0DE092B41C3D4074009A7F44 /* DetailAlimentoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailAlimentoViewController.swift; sourceTree = "<group>"; };
 		1309A6C51C158A43005EA244 /* iPlate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPlate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1309A6C81C158A44005EA244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1309A6CA1C158A44005EA244 /* InventarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventarioViewController.swift; sourceTree = "<group>"; };
@@ -80,7 +98,7 @@
 		13A2A8BE1C184F0600612806 /* AlimentiInventarioTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlimentiInventarioTableController.swift; sourceTree = "<group>"; };
 		13AD72951C15A12D0091F621 /* AlimentiTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlimentiTableController.swift; sourceTree = "<group>"; };
 		13AD72971C15A9260091F621 /* CategorieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategorieTableViewController.swift; sourceTree = "<group>"; };
-		13AD729D1C15C5AD0091F621 /* RemoveCategorieTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveCategorieTableController.swift; sourceTree = "<group>"; };
+		13AD729D1C15C5AD0091F621 /* EditCategorieTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditCategorieTableController.swift; sourceTree = "<group>"; };
 		13AD729F1C15CD9E0091F621 /* AlimentoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlimentoViewController.swift; sourceTree = "<group>"; };
 		13C90FF11C161D6C00BF9EFD /* SetAlimentoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetAlimentoViewController.swift; sourceTree = "<group>"; };
 		13D7258C1C15EFC800974AB4 /* PiattoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiattoViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +130,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DCE04D31C3C772700C83B0E /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				1309A6CC1C158A44005EA244 /* Main.storyboard */,
+				1309A6D41C158A44005EA244 /* LaunchScreen.storyboard */,
+				0DCE04D41C3C775500C83B0E /* Redesign.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		0DE092AD1C3D3BC3009A7F44 /* RedsingPlate */ = {
+			isa = PBXGroup;
+			children = (
+				0DE092AF1C3D3C12009A7F44 /* Controllers */,
+			);
+			name = RedsingPlate;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		0DE092AE1C3D3BF5009A7F44 /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				13AD72921C15A0270091F621 /* ViewControllers */,
+			);
+			name = Old;
+			sourceTree = "<group>";
+		};
+		0DE092AF1C3D3C12009A7F44 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0DE092B01C3D3C58009A7F44 /* PlateAlimentiTableViewController.swift */,
+				0DE092B21C3D3F03009A7F44 /* DetailAlimentoNavController.swift */,
+				0DE092B41C3D4074009A7F44 /* DetailAlimentoViewController.swift */,
+				0D12C5801C3D70B2009F9E4D /* IconsTableController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		1309A6BC1C158A43005EA244 = {
 			isa = PBXGroup;
 			children = (
@@ -135,15 +191,14 @@
 		1309A6C71C158A43005EA244 /* iPlate */ = {
 			isa = PBXGroup;
 			children = (
-				13AD72921C15A0270091F621 /* ViewControllers */,
+				0D12C5821C3D712C009F9E4D /* Assets.xcassets */,
 				1309A7021C158DA9005EA244 /* Commons */,
 				1309A7011C158B7E005EA244 /* Model */,
-				1309A6C81C158A44005EA244 /* AppDelegate.swift */,
-				1309A6CC1C158A44005EA244 /* Main.storyboard */,
-				1309A6D41C158A44005EA244 /* LaunchScreen.storyboard */,
+				0DE092AD1C3D3BC3009A7F44 /* RedsingPlate */,
+				0DCE04D31C3C772700C83B0E /* StoryBoard */,
+				0DE092AE1C3D3BF5009A7F44 /* Old */,
 				1309A6D71C158A44005EA244 /* Info.plist */,
 				1309A6CF1C158A44005EA244 /* iPlate.xcdatamodeld */,
-				0DE999E01C18E2E8008E9431 /* Assets.xcassets */,
 			);
 			path = iPlate;
 			sourceTree = "<group>";
@@ -169,6 +224,10 @@
 		1309A7011C158B7E005EA244 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0D3F972F1C3EEB0700A406E2 /* Piatto+CoreDataProperties.swift */,
+				0D3F97301C3EEB0700A406E2 /* Piatto.swift */,
+				0D3F97311C3EEB0700A406E2 /* PiattoAlimenti+CoreDataProperties.swift */,
+				0D3F97321C3EEB0700A406E2 /* PiattoAlimenti.swift */,
 				1309A6F91C158B77005EA244 /* Alimento+CoreDataProperties.swift */,
 				1309A6FA1C158B77005EA244 /* Alimento.swift */,
 				1309A6FB1C158B77005EA244 /* Categoria+CoreDataProperties.swift */,
@@ -180,6 +239,7 @@
 		1309A7021C158DA9005EA244 /* Commons */ = {
 			isa = PBXGroup;
 			children = (
+				1309A6C81C158A44005EA244 /* AppDelegate.swift */,
 				1309A7031C158DBD005EA244 /* Helper.swift */,
 				13A2A8B71C1843ED00612806 /* NumericFieldDelegate.swift */,
 				1351EB3A1C1862EC00EC896C /* DefaultTextFieldDelegate.swift */,
@@ -222,7 +282,7 @@
 			isa = PBXGroup;
 			children = (
 				13AD72971C15A9260091F621 /* CategorieTableViewController.swift */,
-				13AD729D1C15C5AD0091F621 /* RemoveCategorieTableController.swift */,
+				13AD729D1C15C5AD0091F621 /* EditCategorieTableController.swift */,
 				13A2A8BE1C184F0600612806 /* AlimentiInventarioTableController.swift */,
 			);
 			name = Tables;
@@ -307,6 +367,11 @@
 					1309A6C41C158A43005EA244 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = DX3C8CCLKW;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					1309A6DB1C158A44005EA244 = {
 						CreatedOnToolsVersion = 7.1;
@@ -344,7 +409,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1309A6D61C158A44005EA244 /* LaunchScreen.storyboard in Resources */,
-				0DE999E11C18E2E8008E9431 /* Assets.xcassets in Resources */,
+				0DCE04D51C3C775500C83B0E /* Redesign.storyboard in Resources */,
+				0D12C5831C3D712C009F9E4D /* Assets.xcassets in Resources */,
 				1309A6CE1C158A44005EA244 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,6 +436,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D12C5811C3D70B2009F9E4D /* IconsTableController.swift in Sources */,
 				13D7258D1C15EFC800974AB4 /* PiattoViewController.swift in Sources */,
 				13A2A8B81C1843ED00612806 /* NumericFieldDelegate.swift in Sources */,
 				1309A6FD1C158B77005EA244 /* Alimento+CoreDataProperties.swift in Sources */,
@@ -377,18 +444,25 @@
 				1309A7001C158B77005EA244 /* Categoria.swift in Sources */,
 				13A2A8BA1C184D2800612806 /* SelectAlimentiTableController.swift in Sources */,
 				13AD72A01C15CD9E0091F621 /* AlimentoViewController.swift in Sources */,
+				0D3F97331C3EEB0700A406E2 /* Piatto+CoreDataProperties.swift in Sources */,
 				13AD72961C15A12D0091F621 /* AlimentiTableController.swift in Sources */,
 				1309A6D11C158A44005EA244 /* iPlate.xcdatamodeld in Sources */,
-				13AD729E1C15C5AD0091F621 /* RemoveCategorieTableController.swift in Sources */,
+				0D3F97361C3EEB0700A406E2 /* PiattoAlimenti.swift in Sources */,
+				13AD729E1C15C5AD0091F621 /* EditCategorieTableController.swift in Sources */,
 				1309A6C91C158A44005EA244 /* AppDelegate.swift in Sources */,
 				13A2A8BF1C184F0600612806 /* AlimentiInventarioTableController.swift in Sources */,
 				13D7258F1C15F29F00974AB4 /* ListaAlimentiTableController.swift in Sources */,
 				13AD72981C15A9260091F621 /* CategorieTableViewController.swift in Sources */,
 				1309A6FE1C158B77005EA244 /* Alimento.swift in Sources */,
 				1309A6FF1C158B77005EA244 /* Categoria+CoreDataProperties.swift in Sources */,
+				0DE092B51C3D4074009A7F44 /* DetailAlimentoViewController.swift in Sources */,
+				0D3F97341C3EEB0700A406E2 /* Piatto.swift in Sources */,
 				13101BF61C1705EC007C3F26 /* AlimentoPiattoCell.swift in Sources */,
 				13C90FF21C161D6C00BF9EFD /* SetAlimentoViewController.swift in Sources */,
 				1351EB3B1C1862EC00EC896C /* DefaultTextFieldDelegate.swift in Sources */,
+				0DE092B11C3D3C58009A7F44 /* PlateAlimentiTableViewController.swift in Sources */,
+				0DE092B31C3D3F03009A7F44 /* DetailAlimentoNavController.swift in Sources */,
+				0D3F97351C3EEB0700A406E2 /* PiattoAlimenti+CoreDataProperties.swift in Sources */,
 				1351EB3D1C186F1800EC896C /* Extentions.swift in Sources */,
 				1309A7041C158DBD005EA244 /* Helper.swift in Sources */,
 			);

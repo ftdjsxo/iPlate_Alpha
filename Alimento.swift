@@ -45,6 +45,13 @@ class Alimento: NSManagedObject {
         return listaPerCategoria
     }
     
+    static func save(){
+        do{
+            try managedObjectContext.save()
+        }catch{
+            print(error)
+        }
+    }
     
     static func save(nome: String, prezzo: Double, categoria: Categoria)throws -> Alimento?{
         
